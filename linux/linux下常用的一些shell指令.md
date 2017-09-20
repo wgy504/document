@@ -34,5 +34,8 @@ less messages
 last
 
 #linux下让脚本后台自动执行并且将日志按时间分割保存
-nohup your_command > nohup-`date +%Y-%m-%d-%H`.out 2>&1 & 
+nohup your_command > nohup-`date +%Y-%m-%d-%H`.out 2>&1 & 只输出错误信息到日志文件
+nohup ./program >/dev/null 2>log &
+什么信息也不要
+nohup ./program >/dev/null 2>&1 &
 ```
