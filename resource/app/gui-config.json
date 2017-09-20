@@ -1,0 +1,23 @@
+{
+"configs" : [
+  {
+"server" : "23.105.221.206",
+"server_port" : 886,
+"password" : "Mzk0NTIwNj",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+,
+  {
+"server" : "172.93.45.52",
+"server_port" : 886,
+"password" : "Mzk0NTIwNj",
+"method" : "aes-256-cfb",
+"remarks" : ""}
+
+],
+"index" : 0,
+"global" : false,
+"enabled" : false,
+"shareOverLan" : true,
+"isDefault" : false,
+"localPort" : 1080}
