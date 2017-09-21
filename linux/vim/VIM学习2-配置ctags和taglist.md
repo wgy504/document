@@ -3,7 +3,7 @@
 ```
 $ sudo apt install ctags
 ```
-&emsp;&emsp;安装完成后ctags --version出现版本信息说明安装成功。
+&emsp;&emsp;安装完成后```ctags --version```出现版本信息说明安装成功。
 
 # 2、安装taglist
 &emsp;&emsp;taglist是以vim脚本文件得形式给出，所以需要从官网下载后放入vim目录下。
@@ -65,6 +65,6 @@ $ sudo unzip taglist_x.zip
 &emsp;&emsp;导入```taglist```的文档，因为我们将插件安装在全局配置文件夹下，需要```root```权限才能执行，因此需要```$ sudo vim```，再```:helptags /etc/vim/doc/```后即可导入文档，使用```:help taglist.txt```命令查看关联得文档。
 # 3、配置和使用插件
 ## 1、使用ctags
-&emsp;&emsp;
+&emsp;&emsp;在工程根目录中使用```ctags -R```来递归产生tags文件，文件包含了函数和变量宏定义得信息，以便使用快捷键进行快速查找。在vim中使用```set ctags=tags```来加载刚才生成的tags文件，之后打开源文件，即可对其中的函数进行跳转阅读了。
 
 ## 2、使用taglist

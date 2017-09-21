@@ -8,7 +8,7 @@ $ sudo apt install vim-addon-manager
 $ cd /mnt/share/win-share/git/
 $ git clone git://github.com/MarcWeber/vim-addon-manager.git
 ```
-&emsp;&emsp;安装完毕后修改```/etc/vim/vimrc```文件，在其中添加如下
+&emsp;&emsp;安装完毕后修改```/etc/vim/vimrc```文件或者新建```/etc/vim/vimrc.local```文件，在其中添加如下
 ```
 "add for VAM
 fun SetupVAM()
@@ -30,4 +30,4 @@ call SetupVAM()
 " option2:  au GUIEnter * call SetupVAM()
 " See BUGS sections below [*]
 ```
-&emsp;&emsp;在vim中使用```helptags```命令将doc导入。
+&emsp;&emsp;在vim中使用```helptags doc-path```命令将doc导入。
