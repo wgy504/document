@@ -64,4 +64,7 @@ $ sudo unzip taglist_x.zip
 &emsp;&emsp;使用```vim```后使用命令```:Tlist```看到左边开启一列空间即说明安装成功。  
 &emsp;&emsp;导入```taglist```的文档，因为我们将插件安装在全局配置文件夹下，需要```root```权限才能执行，因此需要```$ sudo vim```，再```:helptags /etc/vim/doc/```后即可导入文档，使用```:help taglist.txt```命令查看关联得文档。
 # 3、配置和使用插件
+## 1、使用ctags
 &emsp;&emsp;
+
+## 2、使用taglist
